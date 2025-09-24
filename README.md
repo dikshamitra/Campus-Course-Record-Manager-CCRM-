@@ -38,8 +38,8 @@ CCRM/
 
 ## Author
 
-- MOHD OWAIS
+- DIKSHA MITRA
 
 ## Contact
 
-- md.owais111234@gmail.com
+- dikshamitra3109@gmail.com
