@@ -28,7 +28,54 @@ CCRM/
 ├── USAGE.md
 ├── requirements.md
 
+## Setup Instruction
 
+- Insatll Java JDK
+  - Download JDK 17 pr higher from the Oracle website.
+  - Install it and set environment variables.
+- Install intellij IDEA
+  - Download intellij IDEA
+  - Create a new Java project -> Import src folder.
+  - Add students.csv and courses.csv in project root.
+- Compile and Run from Commant Line
+  - Go to the project folder
+  - Compile the source code
+  - Run the application
+
+## Java concepts used
+
+- Classes and Objects → Student.java, Course.java
+- Inheritance and Interfaces → Instructor.java, EnrollmentService.java
+- Collections Framework → StudentService.java (uses List and Map)
+-  Exception Handling → ValidationUtil.java, CsvImporter.java
+-  File Handling (NIO.2) → BackupService.java, CsvExporter.java
+-  Packages → all code under edu.ccrm.*
+-  Assertions → used in ValidationUtil.java
+
+## Evolution of Java
+
+- 1995 → First release by Sun Microsystems
+- 2004 → Generics and annotations added (Java 5)
+- 2011 → NIO.2 introduced (Java 7)
+- 2014 → Lambdas and Streams (Java 8)
+- 2017–2021 → Features like var, modules, records, sealed classes
+
+## Java Editions
+
+- Java ME (Micro Edition) → Small devices, IoT, mobiles
+- Java SE (Standard Edition) → Core Java, standalone apps
+- Java EE (Enterprise Edition / Jakarta EE) → Web and enterprise applications
+
+## JDK, JRE, JVM
+
+- JVM → Runs Java bytecode
+- JRE → JVM + libraries (for running Java apps)
+- JDK → JRE + compiler & tools (for developing Java apps)
+
+## Enabling Assetions
+
+- Assertions are used for debugging and checking conditions.
+- RUn with assertions enabled
 
 ## Technologies
 
